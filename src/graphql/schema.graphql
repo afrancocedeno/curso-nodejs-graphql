@@ -1,0 +1,31 @@
+  type Query {
+
+    hello: String
+
+    getPerson(name: String, age: Int): String
+
+    getInt: Int!
+
+    getFloat: Float
+
+    getString: String
+
+    getBoolean: Boolean
+
+    getID: ID
+
+  }
+
+  type Expense {
+
+    id: ID
+
+    name: String
+
+    ammount: Float
+
+    description: String
+
+    category: String
+
+  }
